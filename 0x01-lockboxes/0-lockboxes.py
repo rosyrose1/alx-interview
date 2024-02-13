@@ -14,7 +14,7 @@ def canUnlockAll(boxes):
     r = 0
 
     while r < length:
-        oldr = r
+        oldi = r
         opened_boxes.append(r)
         keys.update(boxes[r])
         for key in keys:
